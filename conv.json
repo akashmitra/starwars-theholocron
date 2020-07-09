@@ -1,0 +1,320 @@
+{
+    "responses": [],
+    "expectUserResponse": true,
+    "digested": false,
+    "noInputs": [],
+    "speechBiasing": [],
+    "_responded": false,
+    "_ordersv3": false,
+    "request": {
+        "user": {
+            "locale": "en-US",
+            "lastSeen": "2020-01-11T12:27:33Z",
+            "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+            "conversationId": "ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T",
+            "type": "NEW"
+        },
+        "inputs": [
+            {
+                "intent": "actions.intent.MAIN",
+                "rawInputs": [
+                    {
+                        "inputType": "VOICE",
+                        "query": "Talk to Incoming Transmission"
+                    }
+                ]
+            }
+        ],
+        "surface": {
+            "capabilities": [
+                {
+                    "name": "actions.capability.ACCOUNT_LINKING"
+                },
+                {
+                    "name": "actions.capability.AUDIO_OUTPUT"
+                },
+                {
+                    "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+                },
+                {
+                    "name": "actions.capability.SCREEN_OUTPUT"
+                }
+            ]
+        },
+        "isInSandbox": true,
+        "availableSurfaces": [
+            {
+                "capabilities": [
+                    {
+                        "name": "actions.capability.WEB_BROWSER"
+                    },
+                    {
+                        "name": "actions.capability.AUDIO_OUTPUT"
+                    },
+                    {
+                        "name": "actions.capability.SCREEN_OUTPUT"
+                    }
+                ]
+            }
+        ],
+        "requestType": "SIMULATOR"
+    },
+    "headers": {
+        "connection": "close",
+        "x-forwarded-for": "66.249.83.76,::ffff:10.10.11.225,::ffff:10.10.81.159",
+        "x-forwarded-proto": "https,http,http",
+        "x-forwarded-port": "443,80,80",
+        "host": "akashmitra-the-holocron.glitch.me",
+        "content-length": "3347",
+        "content-type": "application/json",
+        "accept": "*/*",
+        "user-agent": "Google-Dialogflow",
+        "accept-encoding": "gzip,deflate,br",
+        "x-forwarded-host": "akashmitra-the-holocron.glitch.me",
+        "traceparent": "00-d31a5df3c3d8496f878f460f4ad63397-8ccfc7ec7ba39b27-01"
+    },
+    "_init": {},
+    "sandbox": true,
+    "input": {
+        "raw": "Talk to Incoming Transmission",
+        "type": "VOICE"
+    },
+    "surface": {
+        "capabilities": {
+            "list": [
+                {
+                    "name": "actions.capability.ACCOUNT_LINKING"
+                },
+                {
+                    "name": "actions.capability.AUDIO_OUTPUT"
+                },
+                {
+                    "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+                },
+                {
+                    "name": "actions.capability.SCREEN_OUTPUT"
+                }
+            ]
+        }
+    },
+    "available": {
+        "surfaces": {
+            "list": [
+                {
+                    "capabilities": {
+                        "list": [
+                            {
+                                "name": "actions.capability.WEB_BROWSER"
+                            },
+                            {
+                                "name": "actions.capability.AUDIO_OUTPUT"
+                            },
+                            {
+                                "name": "actions.capability.SCREEN_OUTPUT"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "capabilities": {
+                "surfaces": [
+                    {
+                        "capabilities": {
+                            "list": [
+                                {
+                                    "name": "actions.capability.WEB_BROWSER"
+                                },
+                                {
+                                    "name": "actions.capability.AUDIO_OUTPUT"
+                                },
+                                {
+                                    "name": "actions.capability.SCREEN_OUTPUT"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "user": {
+        "raw": {
+            "locale": "en-US",
+            "lastSeen": "2020-01-11T12:27:33Z",
+            "userVerificationStatus": "VERIFIED"
+        },
+        "storage": {},
+        "locale": "en-US",
+        "verification": "VERIFIED",
+        "permissions": [],
+        "last": {
+            "seen": "2020-01-11T12:27:33.000Z"
+        },
+        "name": {},
+        "entitlements": [],
+        "access": {},
+        "profile": {}
+    },
+    "arguments": {
+        "parsed": {
+            "input": {},
+            "list": []
+        },
+        "status": {
+            "input": {},
+            "list": []
+        },
+        "raw": {
+            "list": [],
+            "input": {}
+        }
+    },
+    "device": {},
+    "id": "ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T",
+    "type": "NEW",
+    "screen": true,
+    "body": {
+        "responseId": "fd7294af-3969-43dd-a510-3b6306adf42c-b4ef8d5f",
+        "queryResult": {
+            "queryText": "GOOGLE_ASSISTANT_WELCOME",
+            "action": "input.welcome",
+            "parameters": {},
+            "allRequiredParamsPresent": true,
+            "outputContexts": [
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_account_linking"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_audio_output"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_media_response_audio"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_screen_output"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/google_assistant_input_type_voice"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/google_assistant_welcome"
+                },
+                {
+                    "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/__system_counters__",
+                    "parameters": {
+                        "no-input": 0,
+                        "no-match": 0
+                    }
+                }
+            ],
+            "intent": {
+                "name": "projects/mos-eisley-cantina/agent/intents/baf50bed-c987-47fb-82a6-a4b0f878ffbe",
+                "displayName": "Default Welcome Intent"
+            },
+            "intentDetectionConfidence": 1,
+            "languageCode": "en"
+        },
+        "originalDetectIntentRequest": {
+            "source": "google",
+            "version": "2",
+            "payload": {
+                "user": {
+                    "locale": "en-US",
+                    "lastSeen": "2020-01-11T12:27:33Z",
+                    "userVerificationStatus": "VERIFIED"
+                },
+                "conversation": {
+                    "conversationId": "ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T",
+                    "type": "NEW"
+                },
+                "inputs": [
+                    {
+                        "intent": "actions.intent.MAIN",
+                        "rawInputs": [
+                            {
+                                "inputType": "VOICE",
+                                "query": "Talk to Incoming Transmission"
+                            }
+                        ]
+                    }
+                ],
+                "surface": {
+                    "capabilities": [
+                        {
+                            "name": "actions.capability.ACCOUNT_LINKING"
+                        },
+                        {
+                            "name": "actions.capability.AUDIO_OUTPUT"
+                        },
+                        {
+                            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+                        },
+                        {
+                            "name": "actions.capability.SCREEN_OUTPUT"
+                        }
+                    ]
+                },
+                "isInSandbox": true,
+                "availableSurfaces": [
+                    {
+                        "capabilities": [
+                            {
+                                "name": "actions.capability.WEB_BROWSER"
+                            },
+                            {
+                                "name": "actions.capability.AUDIO_OUTPUT"
+                            },
+                            {
+                                "name": "actions.capability.SCREEN_OUTPUT"
+                            }
+                        ]
+                    }
+                ],
+                "requestType": "SIMULATOR"
+            }
+        },
+        "session": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T"
+    },
+    "version": 2,
+    "action": "input.welcome",
+    "intent": "Default Welcome Intent",
+    "parameters": {},
+    "contexts": {
+        "_session": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T",
+        "input": {
+            "actions_capability_account_linking": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_account_linking"
+            },
+            "actions_capability_audio_output": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_audio_output"
+            },
+            "actions_capability_media_response_audio": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_media_response_audio"
+            },
+            "actions_capability_screen_output": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/actions_capability_screen_output"
+            },
+            "google_assistant_input_type_voice": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/google_assistant_input_type_voice"
+            },
+            "google_assistant_welcome": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/google_assistant_welcome"
+            },
+            "__system_counters__": {
+                "name": "projects/mos-eisley-cantina/agent/sessions/ABwppHFSaUyhxPHrSZqCK6Tg0Mi2mcH74eSMNVwKASOaFoES2SlPdaNZ-clLmKaI35pvXP9Ao2zKdQcsf9ZhWH4T/contexts/__system_counters__",
+                "parameters": {
+                    "no-input": 0,
+                    "no-match": 0
+                }
+            }
+        },
+        "output": {}
+    },
+    "incoming": {
+        "parsed": []
+    },
+    "query": "GOOGLE_ASSISTANT_WELCOME",
+    "data": {}
+}

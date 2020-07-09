@@ -1,0 +1,33 @@
+<speak>
+        <par>
+          <media xml:id="intro" soundLevel="5dB" fadeOutDur="2.0s">
+              <audio src="https://upload.wikimedia.org/wikipedia/commons/4/43/Nowhere_Land_%28ISRC_USUAN1600051%29.mp3" clipEnd="5.0s">
+              <desc>news intro</desc>
+              INTRO
+            </audio>
+          </media>
+          <media xml:id="crowd" soundLevel="5dB" fadeOutDur="1.0s" begin="intro.end-1.0s">
+            <audio src="https://actions.google.com/sounds/v1/crowds/battle_cry_high_pitch.ogg" clipEnd="3.0s">
+            <desc>crowd cheering</desc>
+            YEAH!
+            </audio>
+          </media>
+          <media xml:id="words" begin="crowd.end-1.0s">
+            <speak><emphasis level="strong">Great catch by Amendola! I can't believe he got both feet in bounds!</emphasis></speak>
+          </media>
+          <media xml:id="background" soundLevel="-5dB" begin="1s" end="words.end-0.0s" fadeInDur="2.0s" fadeOutDur="1.0s">
+            <audio src="https://actions.google.com/sounds/v1/crowds/battle_crowd_celebration.ogg">
+              <desc>crowd cheering</desc>
+              YEAH!
+            </audio>
+          </media>
+          <media xml:id="cheer" begin="words.end-1.0s" soundLevel="0dB" fadeOutDur="1.0s">
+            <audio src="https://actions.google.com/sounds/v1/crowds/team_cheer.ogg" clipBegin="2.0s" clipEnd="6.0s">
+              <desc>team cheer</desc>
+              CHEER!
+            </audio>
+          </media>
+        </par>
+</speak>
+
+https://medium.com/google-developers/advanced-ssml-for-actions-on-google-5cea45d868c9
