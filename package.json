@@ -35,5 +35,10 @@
   },
   "repository": {
     "url": "https://github.com/akashmitra/the-holocron.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
