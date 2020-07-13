@@ -1,5 +1,3 @@
-'use strict';
-
 /** Config variables
  * */
 const config = require("./config/config");
